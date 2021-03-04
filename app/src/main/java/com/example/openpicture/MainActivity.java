@@ -39,7 +39,6 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import com.example.android.camera.utils.AutoFitSurfaceView;
 import com.example.openpicture.Camera.DisplayCameraImage;
 import com.example.openpicture.GalleryImages.ImageActivity;
 import com.example.openpicture.galleryPicker.model.PdfData;

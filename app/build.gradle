@@ -43,8 +43,6 @@ android {
 }
 
 dependencies {
-    implementation files('libs/openpicture-debug.aar')
-
     implementation 'com.squareup.picasso:picasso:2.5.2'
     implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'com.google.android.material:material:1.2.1'
