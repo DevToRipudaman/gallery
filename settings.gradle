@@ -1,0 +1,4 @@
+include ':openpicture'
+include ':app', ":myCustomLibrary"
+include 'utils'
+rootProject.name = "OpenPicture"

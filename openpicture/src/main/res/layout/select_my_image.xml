@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="10dp"
+    android:background="@drawable/edit"
+    app:cardCornerRadius="20dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit">
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/ic_baseline_photo_camera_24"
+            android:scaleType="fitXY"
+            android:id="@+id/camera_button"
+            android:background="@drawable/edit2"
+            />
+
+        <TextView
+            android:id="@+id/take_photo_from_camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Take photo"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/purple_500"
+            android:layout_below="@+id/camera_button"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="10dp"/>
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="70dp"
+            android:src="@drawable/ic_baseline_folder_24"
+            android:scaleType="fitXY"
+            android:layout_toRightOf="@+id/camera_button"
+            android:id="@+id/attach_button"
+            android:background="@drawable/edit2"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose from gallery"
+            android:textColor="@color/purple_500"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/camera_button"
+            android:layout_toRightOf="@id/take_photo_from_camera"
+            android:layout_marginLeft="70dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="30dp"/>
+
+    </RelativeLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>
